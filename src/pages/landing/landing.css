@@ -1,0 +1,45 @@
+.l{
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.l-body{
+    width: 100%;
+    height: 100%;
+}
+
+.l-main{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.l-footer{
+    width: 100%;
+    height: 70px;
+    background-color:lightskyblue;
+    position: absolute;
+    bottom: 0px;
+}
+
+.l-sub{
+    display: flex;
+    padding: 0px 100px;
+    text-align: center;
+    justify-content: center;
+}
+
+.l-button-left{
+    flex: 1;
+}
+
+.l-button-right{
+    flex: 1;
+}
+
+/* .MuiAppBar-colorPrimary{
+    color: lightskyblue;
+} */
