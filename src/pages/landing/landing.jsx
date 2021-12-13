@@ -4,16 +4,15 @@ import Button from "@mui/material/Button";
 import "./landing.css"
 
 
+
+
 const Landing = () => {
 	return (
 		<div className="l">
-			<div className="l-top">
 				<Header />
-			</div>
 			<div className="l-body">
 				<div className="l-main">
-					Методические материалы для подготовки к ОГЭ/
-					ЕГЭ по математике по направлению “Статистика и Теория вероятностей” 
+					Методические материалы для подготовки к ОГЭ/ЕГЭ по математике по направлению “Статистика и Теория вероятностей” 
 				</div>
 				<div className="l-sub">
 					<div className="l-button-left">
@@ -22,7 +21,7 @@ const Landing = () => {
 						</Button>
 					</div>
 					<div className="l-button-right">
-						<Button variant="contained" size="large">
+						<Button variant="contained" size="large" href="../login/Login.jsx">
 							Войти/Зарегистрироваться для сохранения прогресса
 						</Button>
 					</div>

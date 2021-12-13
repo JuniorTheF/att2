@@ -1,9 +1,11 @@
 import Landing  from './pages/landing/landing'
+import Login from './pages/login/login';
 
 function App() {
   return (
     <div className="App">
-        <Landing/>
+        <Login/>
+
     </div>
   );
 }
