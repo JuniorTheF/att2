@@ -37,23 +37,31 @@ const Landing = () => {
 			</div>
 			<div className="l-body">
 				<div className="l-main">
-					LOREM IPSUM
+					Методические материалы для подготовки к ОГЭ/
+					ЕГЭ по математике по направлению “Статистика и Теория вероятностей” 
 				</div>
 				<div className="l-sub">
 					<div className="l-button-left">
-						<Button>
-							123
+						<Button variant="contained" size="large">
+							Начать изучение материалов
 						</Button>
 					</div>
 					<div className="l-button-right">
-						2.ldfhvgsdhgoshd;hcagrgf;sdhfg;
+						<Button variant="contained" size="large">
+							Войти/Зарегистрироваться для сохранения прогресса
+						</Button>
 					</div>
 				</div>
 			</div>
 			
 			<footer>
 				<div className="l-footer">
-				PSHOD
+					<div className="l-year">
+						2021г-2022г
+					</div>
+					<div className="l-prepared">
+						Проект подготовили: Бабушкин Тимофей 10Д, Федор Мартынов 10Д, Николаев Евгений 10А
+					</div>
 				</div>
 			</footer>
 		</div>
